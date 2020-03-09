@@ -9,34 +9,62 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="author" href="humans.txt">
 
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/seethru@4/dist/seeThru.min.js"></script>
+
   <script>
-    window.addEventListener("load", function(event) {
-      var canvas = $("#paper")[0];
-      var c = canvas.getContext("2d");
-      var startX = 50;
-      var startY = 50;
-      var endX = 100;
-      var endY = 100;
-      var amount = 0;
-      setInterval(function() {
-        amount += 0.05;
-        c.clearRect(0, 0, canvas.width, canvas.height);
-        c.strokeStyle = "black";
-        c.moveTo(startX, startY);
-        c.lineTo(startX + (endX - startX) * amount, startY + (endY - startY) * amount);
-        c.stroke();
-      }, 30);
+    // window.addEventListener("load", function(event) {
+    //   var canvas = $("#paper")[0];
+    //   var c = canvas.getContext("2d");
+    //   var startX = 50;
+    //   var startY = 50;
+    //   var endX = 100;
+    //   var endY = 100;
+    //   var amount = 0;
+    //   setInterval(function() {
+    //     amount += 0.05;
+    //     c.clearRect(0, 0, canvas.width, canvas.height);
+    //     c.strokeStyle = "black";
+    //     c.moveTo(startX, startY);
+    //     c.lineTo(startX + (endX - startX) * amount, startY + (endY - startY) * amount);
+    //     c.stroke();
+    //   }, 30);
+    // });
+
+    jQuery(document).ready(function($) {
+    	console.log("js is working");
     });
   </script>
 </head>
 
 <body>
+
+  <!-- <video id="background-video" width="1920" height="1080" loop autoplay muted>
+    <source src="image/background-egg-01.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video> -->
+
+  <video id="background-video" width="1920" height="1080" loop autoplay muted>
+    <source src="image/background-egg-02.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
   <!-- <div class="container-fullhd">
-    <div class="egg"></div>
+    <div class="egg">
+      <video id="egg-01" width="1920" height="1080" loop autoplay muted>
+        <source src="image/egg-01.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
   </div> -->
 
-  <canvas id="paper" width="800" height="500"></canvas>
-
+  <!-- <canvas id="paper" width="800" height="500"></canvas> -->
+  <!-- <script>
+      seeThru.create('#egg-01', {
+        width: 1920,
+        height: 1080
+      }).play();
+  </script> -->
   <script src="js/app.min.js"></script>
 
 </body>

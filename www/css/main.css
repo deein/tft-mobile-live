@@ -11888,86 +11888,8 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-<<<<<<< HEAD
 /* line 1, ../dev/sass/_home.scss */
 html, body {
-=======
-/* line 49, ../dev/sass/_bootswatch.scss */
-.navbar {
-  border: none;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-/* line 53, ../dev/sass/_bootswatch.scss */
-.navbar-brand {
-  font-size: 24px;
-}
-/* line 57, ../dev/sass/_bootswatch.scss */
-.navbar-nav .nav-link {
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
-}
-/* line 65, ../dev/sass/_bootswatch.scss */
-.navbar.bg-dark input[type=text],
-.navbar.bg-dark input[type=password],
-.navbar.bg-dark input[type=email],
-.navbar.bg-dark input[type=number],
-.navbar.bg-dark input[type=tel], .navbar.bg-primary input[type=text],
-.navbar.bg-primary input[type=password],
-.navbar.bg-primary input[type=email],
-.navbar.bg-primary input[type=number],
-.navbar.bg-primary input[type=tel] {
-  color: #fff;
-  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5);
-}
-/* line 73, ../dev/sass/_bootswatch.scss */
-.navbar.bg-dark input[type=text]:focus,
-.navbar.bg-dark input[type=password]:focus,
-.navbar.bg-dark input[type=email]:focus,
-.navbar.bg-dark input[type=number]:focus,
-.navbar.bg-dark input[type=tel]:focus, .navbar.bg-primary input[type=text]:focus,
-.navbar.bg-primary input[type=password]:focus,
-.navbar.bg-primary input[type=email]:focus,
-.navbar.bg-primary input[type=number]:focus,
-.navbar.bg-primary input[type=tel]:focus {
-  box-shadow: inset 0 -2px 0 #fff;
-}
-/* line 77, ../dev/sass/_bootswatch.scss */
-.navbar.bg-dark input[type=text]::placeholder,
-.navbar.bg-dark input[type=password]::placeholder,
-.navbar.bg-dark input[type=email]::placeholder,
-.navbar.bg-dark input[type=number]::placeholder,
-.navbar.bg-dark input[type=tel]::placeholder, .navbar.bg-primary input[type=text]::placeholder,
-.navbar.bg-primary input[type=password]::placeholder,
-.navbar.bg-primary input[type=email]::placeholder,
-.navbar.bg-primary input[type=number]::placeholder,
-.navbar.bg-primary input[type=tel]::placeholder {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-/* line 87, ../dev/sass/_bootswatch.scss */
-.btn-primary {
-  position: relative;
-}
-/* line 88, ../dev/sass/_bootswatch.scss */
-.btn-primary:focus {
-  background-color: #007bff;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
-}
-/* line 93, ../dev/sass/_bootswatch.scss */
-.btn-primary:hover, .btn-primary:active:hover {
-  background-color: #006ce0;
-}
-/* line 98, ../dev/sass/_bootswatch.scss */
-.btn-primary:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-primary:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
->>>>>>> 8db25e1aa328b08f7dd97c483cdec398710349ad
   height: 100%;
 }
 
@@ -11977,11 +11899,20 @@ body {
   color: #212529;
 }
 
-<<<<<<< HEAD
 /* line 10, ../dev/sass/_home.scss */
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+}
+
+/* line 18, ../dev/sass/_home.scss */
 .container-fullhd {
-  width: 100%;
-  height: 100%;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
   display: -webkit-flex;
   display: flex;
   -webkit-flex-direction: row;
@@ -11991,1235 +11922,132 @@ body {
   -webkit-justify-content: center;
   justify-content: center;
 }
-/* line 17, ../dev/sass/_home.scss */
-.container-fullhd .egg {
-  width: 700px;
-  height: 900px;
-  background: red;
-=======
-/* line 87, ../dev/sass/_bootswatch.scss */
-.btn-secondary {
-  position: relative;
-}
-/* line 88, ../dev/sass/_bootswatch.scss */
-.btn-secondary:focus {
-  background-color: #6c757d;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
-}
-/* line 93, ../dev/sass/_bootswatch.scss */
-.btn-secondary:hover, .btn-secondary:active:hover {
-  background-color: #5e666d;
-}
-/* line 98, ../dev/sass/_bootswatch.scss */
-.btn-secondary:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-secondary:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #adb5bd 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-secondary:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-secondary.disabled:after, .btn-secondary[disabled]:after {
-  display: none;
-}
 
-/* line 105, ../dev/sass/_bootswatch.scss */
-.btn-outline-secondary {
-  position: relative;
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-outline-secondary:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #adb5bd 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-outline-secondary:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-outline-secondary.disabled:after, .btn-outline-secondary[disabled]:after {
-  display: none;
-}
-
-/* line 87, ../dev/sass/_bootswatch.scss */
-.btn-success {
-  position: relative;
-}
-/* line 88, ../dev/sass/_bootswatch.scss */
-.btn-success:focus {
-  background-color: #28a745;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
-}
-/* line 93, ../dev/sass/_bootswatch.scss */
-.btn-success:hover, .btn-success:active:hover {
-  background-color: #228e3b;
-}
-/* line 98, ../dev/sass/_bootswatch.scss */
-.btn-success:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-success:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-success:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-success.disabled:after, .btn-success[disabled]:after {
-  display: none;
-}
-
-/* line 105, ../dev/sass/_bootswatch.scss */
-.btn-outline-success {
-  position: relative;
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-outline-success:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-outline-success:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-outline-success.disabled:after, .btn-outline-success[disabled]:after {
-  display: none;
-}
-
-/* line 87, ../dev/sass/_bootswatch.scss */
-.btn-info {
-  position: relative;
-}
-/* line 88, ../dev/sass/_bootswatch.scss */
-.btn-info:focus {
-  background-color: #17a2b8;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
-}
-/* line 93, ../dev/sass/_bootswatch.scss */
-.btn-info:hover, .btn-info:active:hover {
-  background-color: #148a9d;
-}
-/* line 98, ../dev/sass/_bootswatch.scss */
-.btn-info:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-info:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-info:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-info.disabled:after, .btn-info[disabled]:after {
-  display: none;
-}
-
-/* line 105, ../dev/sass/_bootswatch.scss */
-.btn-outline-info {
-  position: relative;
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-outline-info:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-outline-info:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-outline-info.disabled:after, .btn-outline-info[disabled]:after {
-  display: none;
-}
-
-/* line 87, ../dev/sass/_bootswatch.scss */
-.btn-warning {
-  position: relative;
-}
-/* line 88, ../dev/sass/_bootswatch.scss */
-.btn-warning:focus {
-  background-color: #ffc107;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
-}
-/* line 93, ../dev/sass/_bootswatch.scss */
-.btn-warning:hover, .btn-warning:active:hover {
-  background-color: #e7ae00;
-}
-/* line 98, ../dev/sass/_bootswatch.scss */
-.btn-warning:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-warning:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-warning:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-warning.disabled:after, .btn-warning[disabled]:after {
-  display: none;
-}
-
-/* line 105, ../dev/sass/_bootswatch.scss */
-.btn-outline-warning {
-  position: relative;
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-outline-warning:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-outline-warning:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-outline-warning.disabled:after, .btn-outline-warning[disabled]:after {
-  display: none;
-}
-
-/* line 87, ../dev/sass/_bootswatch.scss */
-.btn-danger {
-  position: relative;
-}
-/* line 88, ../dev/sass/_bootswatch.scss */
-.btn-danger:focus {
-  background-color: #dc3545;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
-}
-/* line 93, ../dev/sass/_bootswatch.scss */
-.btn-danger:hover, .btn-danger:active:hover {
-  background-color: #cf2434;
-}
-/* line 98, ../dev/sass/_bootswatch.scss */
-.btn-danger:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-danger:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-danger:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-danger.disabled:after, .btn-danger[disabled]:after {
-  display: none;
-}
-
-/* line 105, ../dev/sass/_bootswatch.scss */
-.btn-outline-danger {
-  position: relative;
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-outline-danger:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-outline-danger:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-outline-danger.disabled:after, .btn-outline-danger[disabled]:after {
-  display: none;
-}
-
-/* line 87, ../dev/sass/_bootswatch.scss */
-.btn-dark {
-  position: relative;
-}
-/* line 88, ../dev/sass/_bootswatch.scss */
-.btn-dark:focus {
-  background-color: #343a40;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
-}
-/* line 93, ../dev/sass/_bootswatch.scss */
-.btn-dark:hover, .btn-dark:active:hover {
-  background-color: #262b2f;
-}
-/* line 98, ../dev/sass/_bootswatch.scss */
-.btn-dark:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-dark:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-dark:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-dark.disabled:after, .btn-dark[disabled]:after {
-  display: none;
-}
-
-/* line 105, ../dev/sass/_bootswatch.scss */
-.btn-outline-dark {
-  position: relative;
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-outline-dark:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-outline-dark:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-outline-dark.disabled:after, .btn-outline-dark[disabled]:after {
-  display: none;
-}
-
-/* line 87, ../dev/sass/_bootswatch.scss */
-.btn-light {
-  position: relative;
-}
-/* line 88, ../dev/sass/_bootswatch.scss */
-.btn-light:focus {
-  background-color: #f8f9fa;
-  box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
-}
-/* line 93, ../dev/sass/_bootswatch.scss */
-.btn-light:hover, .btn-light:active:hover {
-  background-color: #e6eaed;
-}
-/* line 98, ../dev/sass/_bootswatch.scss */
-.btn-light:active {
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-light:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-light:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-light.disabled:after, .btn-light[disabled]:after {
-  display: none;
-}
-
-/* line 105, ../dev/sass/_bootswatch.scss */
-.btn-outline-light {
-  position: relative;
-}
-/* line 15, ../dev/sass/_bootswatch.scss */
-.btn-outline-light:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-left: 0;
-  background-image: radial-gradient(circle, #ffffff 10%, rgba(0, 0, 0, 0) 10.01%);
-  background-repeat: no-repeat;
-  background-size: 1000% 1000%;
-  background-position: 50%;
-  border: none;
-  opacity: 0;
-  pointer-events: none;
-  transition: background .5s, opacity 1s;
-}
-/* line 33, ../dev/sass/_bootswatch.scss */
-.btn-outline-light:active:after {
-  background-size: 0 0;
-  opacity: .2;
-  transition: 0s;
-}
-/* line 41, ../dev/sass/_bootswatch.scss */
-.btn-outline-light.disabled:after, .btn-outline-light[disabled]:after {
-  display: none;
-}
-
-/* line 119, ../dev/sass/_bootswatch.scss */
-.btn {
-  text-transform: uppercase;
-  border: none;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-  transition: all 0.4s;
-}
-/* line 125, ../dev/sass/_bootswatch.scss */
-.btn-link {
-  box-shadow: none;
-  color: #007bff;
-}
-/* line 129, ../dev/sass/_bootswatch.scss */
-.btn-link:hover, .btn-link:focus {
-  box-shadow: none;
-  color: #0056b3;
-  text-decoration: underline;
-}
-/* line 139, ../dev/sass/_bootswatch.scss */
-.btn-link.disabled:hover, .btn-link.disabled:active:hover, .btn-link[disabled]:hover, .btn-link[disabled]:active:hover, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:active:hover {
-  color: #6c757d;
-  text-decoration: none;
-}
-/* line 148, ../dev/sass/_bootswatch.scss */
-.btn-secondary.disabled, .btn-secondary[disabled], fieldset[disabled] .btn-secondary {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: rgba(0, 0, 0, 0.4);
-  opacity: 1;
-}
-/* line 155, ../dev/sass/_bootswatch.scss */
-.btn-secondary.disabled:hover, .btn-secondary.disabled:focus, .btn-secondary[disabled]:hover, .btn-secondary[disabled]:focus, fieldset[disabled] .btn-secondary:hover, fieldset[disabled] .btn-secondary:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-/* line 162, ../dev/sass/_bootswatch.scss */
-.btn-outline-secondary {
-  border-color: #e9ecef;
-  color: #dee2e6;
-}
-/* line 167, ../dev/sass/_bootswatch.scss */
-.btn-warning {
-  color: #fff;
-}
-/* line 171, ../dev/sass/_bootswatch.scss */
-.btn.dropdown-toggle::before {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: 0.3em;
-  vertical-align: middle;
-  content: "";
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-left: 0.3em solid transparent;
-}
-
-/* line 185, ../dev/sass/_bootswatch.scss */
-.btn-group .btn + .btn,
-.btn-group .btn + .btn-group,
-.btn-group .btn-group + .btn,
-.btn-group .btn-group + .btn-group {
-  margin-left: 0;
-}
-/* line 193, ../dev/sass/_bootswatch.scss */
-.btn-group-vertical > .btn + .btn,
-.btn-group-vertical > .btn + .btn-group,
-.btn-group-vertical > .btn-group + .btn,
-.btn-group-vertical > .btn-group + .btn-group {
-  margin-top: 0;
-}
-/* line 201, ../dev/sass/_bootswatch.scss */
-.btn-group .btn + .btn,
-.btn-group .btn + .btn-group > .dropdown-toggle {
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-}
-
-/* line 207, ../dev/sass/_bootswatch.scss */
-.border-secondary {
-  border: 1px solid #dfdfdf !important;
-}
-
-/* line 213, ../dev/sass/_bootswatch.scss */
-body,
-input,
-button {
-  -webkit-font-smoothing: antialiased;
-  letter-spacing: .1px;
-}
-
-/* line 220, ../dev/sass/_bootswatch.scss */
-p {
-  margin: 0 0 1em;
-}
-
-/* line 224, ../dev/sass/_bootswatch.scss */
-.text-secondary {
-  color: #adb5bd !important;
-}
-
-/* line 231, ../dev/sass/_bootswatch.scss */
-.table-hover > tbody > tr,
-.table-hover > tbody > tr > th,
-.table-hover > tbody > tr > td {
-  transition: all 0.2s;
-}
-
-/* line 238, ../dev/sass/_bootswatch.scss */
-.thead-inverse th {
-  background-color: #007bff;
-  color: #fff;
-}
-
-/* line 245, ../dev/sass/_bootswatch.scss */
-.col-form-label {
-  font-size: 16px;
-}
-/* line 248, ../dev/sass/_bootswatch.scss */
-.col-form-label-sm {
-  font-size: 0.875rem;
-}
-/* line 252, ../dev/sass/_bootswatch.scss */
-.col-form-label-lg {
-  font-size: 1.25rem;
-}
-
-/* line 257, ../dev/sass/_bootswatch.scss */
-textarea,
-textarea.form-control,
-input.form-control,
-input[type=text],
-input[type=password],
-input[type=email],
-input[type=number],
-[type=text].form-control,
-[type=password].form-control,
-[type=email].form-control,
-[type=tel].form-control,
-[contenteditable].form-control {
-  box-shadow: inset 0 -1px 0 #ddd;
-  transition: box-shadow 0.2s;
-}
-/* line 272, ../dev/sass/_bootswatch.scss */
-textarea:focus,
-textarea.form-control:focus,
-input.form-control:focus,
-input[type=text]:focus,
-input[type=password]:focus,
-input[type=email]:focus,
-input[type=number]:focus,
-[type=text].form-control:focus,
-[type=password].form-control:focus,
-[type=email].form-control:focus,
-[type=tel].form-control:focus,
-[contenteditable].form-control:focus {
-  box-shadow: inset 0 -2px 0 #007bff;
-}
-/* line 276, ../dev/sass/_bootswatch.scss */
-textarea[disabled], textarea[readonly],
-textarea.form-control[disabled],
-textarea.form-control[readonly],
-input.form-control[disabled],
-input.form-control[readonly],
-input[type=text][disabled],
-input[type=text][readonly],
-input[type=password][disabled],
-input[type=password][readonly],
-input[type=email][disabled],
-input[type=email][readonly],
-input[type=number][disabled],
-input[type=number][readonly],
-[type=text].form-control[disabled],
-[type=text].form-control[readonly],
-[type=password].form-control[disabled],
-[type=password].form-control[readonly],
-[type=email].form-control[disabled],
-[type=email].form-control[readonly],
-[type=tel].form-control[disabled],
-[type=tel].form-control[readonly],
-[contenteditable].form-control[disabled],
-[contenteditable].form-control[readonly] {
-  box-shadow: none;
-  border-bottom: 1px dotted #ddd;
-}
-/* line 282, ../dev/sass/_bootswatch.scss */
-textarea[disabled], textarea[disabled]::placeholder,
-textarea.form-control[disabled],
-textarea.form-control[disabled]::placeholder,
-input.form-control[disabled],
-input.form-control[disabled]::placeholder,
-input[type=text][disabled],
-input[type=text][disabled]::placeholder,
-input[type=password][disabled],
-input[type=password][disabled]::placeholder,
-input[type=email][disabled],
-input[type=email][disabled]::placeholder,
-input[type=number][disabled],
-input[type=number][disabled]::placeholder,
-[type=text].form-control[disabled],
-[type=text].form-control[disabled]::placeholder,
-[type=password].form-control[disabled],
-[type=password].form-control[disabled]::placeholder,
-[type=email].form-control[disabled],
-[type=email].form-control[disabled]::placeholder,
-[type=tel].form-control[disabled],
-[type=tel].form-control[disabled]::placeholder,
-[contenteditable].form-control[disabled],
-[contenteditable].form-control[disabled]::placeholder {
-  color: #ddd;
-}
-/* line 287, ../dev/sass/_bootswatch.scss */
-textarea::-ms-clear,
-textarea.form-control::-ms-clear,
-input.form-control::-ms-clear,
-input[type=text]::-ms-clear,
-input[type=password]::-ms-clear,
-input[type=email]::-ms-clear,
-input[type=number]::-ms-clear,
-[type=text].form-control::-ms-clear,
-[type=password].form-control::-ms-clear,
-[type=email].form-control::-ms-clear,
-[type=tel].form-control::-ms-clear,
-[contenteditable].form-control::-ms-clear {
-  display: none;
-}
-
-/* line 292, ../dev/sass/_bootswatch.scss */
-select,
-select.form-control {
-  appearance: none;
-  padding: 0.5rem 0;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAJ1BMVEVmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmaP/QSjAAAADHRSTlMAAgMJC0uWpKa6wMxMdjkoAAAANUlEQVR4AeXJyQEAERAAsNl7Hf3X6xt0QL6JpZWq30pdvdadme+0PMdzvHm8YThHcT1H7K0BtOMDniZhWOgAAAAASUVORK5CYII=);
-  background-size: 13px;
-  background-repeat: no-repeat;
-  background-position: right center;
-  box-shadow: inset 0 -1px 0 #ddd;
-}
-/* line 302, ../dev/sass/_bootswatch.scss */
-select::-ms-expand,
-select.form-control::-ms-expand {
-  display: none;
-}
-/* line 307, ../dev/sass/_bootswatch.scss */
-select.input-sm,
-select.form-control.input-sm {
-  font-size: 0.875rem;
-}
-/* line 311, ../dev/sass/_bootswatch.scss */
-select.input-lg,
-select.form-control.input-lg {
-  font-size: 1.25rem;
-}
-/* line 316, ../dev/sass/_bootswatch.scss */
-select:focus,
-select.form-control:focus {
-  box-shadow: inset 0 -2px 0 #007bff;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAJ1BMVEUhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISF8S9ewAAAADHRSTlMAAgMJC0uWpKa6wMxMdjkoAAAANUlEQVR4AeXJyQEAERAAsNl7Hf3X6xt0QL6JpZWq30pdvdadme+0PMdzvHm8YThHcT1H7K0BtOMDniZhWOgAAAAASUVORK5CYII=);
-}
-/* line 321, ../dev/sass/_bootswatch.scss */
-select[multiple],
-select.form-control[multiple] {
-  background: none;
-}
-
-/* line 326, ../dev/sass/_bootswatch.scss */
-.custom-control {
-  min-height: 1.5rem;
-}
-
-/* line 331, ../dev/sass/_bootswatch.scss */
-.custom-control-label::before {
-  top: 0;
-  border: 2px solid #ced4da;
-}
-/* line 335, ../dev/sass/_bootswatch.scss */
-.custom-control-label::after {
-  top: 0;
-}
-/* line 339, ../dev/sass/_bootswatch.scss */
-.custom-control-input:checked ~ .custom-control-label::before {
-  border-color: #007bff;
-}
-
-/* line 345, ../dev/sass/_bootswatch.scss */
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
-  transform: scale(1.5);
-}
-
-/* line 352, ../dev/sass/_bootswatch.scss */
-.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
-  background: #fff;
-}
-/* line 355, ../dev/sass/_bootswatch.scss */
-.custom-radio .custom-control-input:checked ~ .custom-control-label::after {
-  transform: scale(1.125);
-  transition: 240ms;
-}
-/* line 361, ../dev/sass/_bootswatch.scss */
-.custom-radio .custom-control-input ~ .custom-control-label::after {
-  transform: scale(0.75);
-}
-
-/* line 369, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-label::before {
-  top: 0.125rem;
-  height: 0.875rem;
-  background: #adb5bd;
-  border: none;
-}
-/* line 376, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:disabled ~ .custom-control-label {
-  opacity: 0.7;
-}
-/* line 380, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:disabled ~ .custom-control-label::before {
-  background: #adb5bd;
-}
-/* line 384, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-label::after {
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-}
-/* line 389, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:checked ~ .custom-control-label::before {
-  opacity: 0.38;
-}
-/* line 393, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:checked ~ .custom-control-label::after {
-  background-color: #007bff;
-}
-/* line 397, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:hover:not(:disabled) ~ .custom-control-label::after {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0 9px rgba(0, 0, 0, 0.05);
-}
-/* line 401, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:focus:not(:disabled) ~ .custom-control-label::after {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0 9px rgba(0, 0, 0, 0.09);
-}
-/* line 405, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:active:not(:disabled) ~ .custom-control-label::after {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0 9px rgba(0, 0, 0, 0.16);
-}
-/* line 409, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:hover:checked:not(:disabled) ~ .custom-control-label::after {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0 9px rgba(33, 150, 243, 0.05);
-}
-/* line 413, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:focus:checked:not(:disabled) ~ .custom-control-label::after {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0 9px rgba(33, 150, 243, 0.09);
-}
-/* line 417, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:active:checked:not(:disabled) ~ .custom-control-label::after {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 0 9px rgba(33, 150, 243, 0.16);
-}
-/* line 421, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:active:not(:checked) ~ .custom-control-label::before {
-  background-color: #adb5bd;
-}
-/* line 425, ../dev/sass/_bootswatch.scss */
-.custom-switch .custom-control-input:active:not(:checked) ~ .custom-control-label::before {
-  background-color: #adb5bd;
-}
-
-/* line 431, ../dev/sass/_bootswatch.scss */
-.has-warning input:not([type=checkbox]),
-.has-warning .form-control,
-.has-warning input.form-control[readonly],
-.has-warning input[type=text][readonly],
-.has-warning [type=text].form-control[readonly],
-.has-warning input:not([type=checkbox]):focus,
-.has-warning .form-control:focus {
-  border-bottom: none;
-  box-shadow: inset 0 -2px 0 #ffc107;
-}
-
-/* line 444, ../dev/sass/_bootswatch.scss */
-.has-danger input:not([type=checkbox]),
-.has-danger .form-control,
-.has-danger input.form-control[readonly],
-.has-danger input[type=text][readonly],
-.has-danger [type=text].form-control[readonly],
-.has-danger input:not([type=checkbox]):focus,
-.has-danger .form-control:focus {
-  border-bottom: none;
-  box-shadow: inset 0 -2px 0 #dc3545;
-}
-
-/* line 457, ../dev/sass/_bootswatch.scss */
-.has-success input:not([type=checkbox]),
-.has-success .form-control,
-.has-success input.form-control[readonly],
-.has-success input[type=text][readonly],
-.has-success [type=text].form-control[readonly],
-.has-success input:not([type=checkbox]):focus,
-.has-success .form-control:focus {
-  border-bottom: none;
-  box-shadow: inset 0 -2px 0 #28a745;
-}
-
-/* line 471, ../dev/sass/_bootswatch.scss */
-.has-warning .input-group-addon, .has-danger .input-group-addon, .has-success .input-group-addon {
-  color: #495057;
-  border-color: #ced4da;
-  background-color: #e9ecef;
-}
-
-/* line 480, ../dev/sass/_bootswatch.scss */
-.input-group > .input-group-prepend > .input-group-text {
-  padding-right: 0.25rem;
-}
-/* line 484, ../dev/sass/_bootswatch.scss */
-.input-group > .input-group-append > .input-group-text {
-  padding-left: 0.25rem;
-}
-/* line 488, ../dev/sass/_bootswatch.scss */
-.input-group .form-control {
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
-}
-
-/* line 496, ../dev/sass/_bootswatch.scss */
-.input-group-sm > .input-group-prepend > .btn,
-.input-group-sm > .input-group-append > .btn {
-  padding: 0.25rem 0.5rem;
-}
-/* line 501, ../dev/sass/_bootswatch.scss */
-.input-group-sm > .input-group-prepend > .input-group-text {
-  padding: 0.25rem 0.5rem 0.25rem 0;
-}
-/* line 505, ../dev/sass/_bootswatch.scss */
-.input-group-sm > .input-group-append > .input-group-text {
-  padding: 0.25rem 0 0.25rem 0.5rem;
-}
-/* line 509, ../dev/sass/_bootswatch.scss */
-.input-group-sm > .input-group-prepend > .btn {
-  border-top-left-radius: 0.2rem;
-  border-bottom-left-radius: 0.2rem;
-}
-/* line 514, ../dev/sass/_bootswatch.scss */
-.input-group-sm > .input-group-append > .btn {
-  border-top-right-radius: 0.2rem;
-  border-bottom-right-radius: 0.2rem;
-}
-
-/* line 522, ../dev/sass/_bootswatch.scss */
-.input-group-lg > .input-group-prepend > .btn,
-.input-group-lg > .input-group-append > .btn {
-  padding: 0.5rem 1rem;
-}
-/* line 527, ../dev/sass/_bootswatch.scss */
-.input-group-lg > .input-group-prepend > .input-group-text {
-  padding: 0.5rem 1rem 0.5rem 0;
-}
-/* line 531, ../dev/sass/_bootswatch.scss */
-.input-group-lg > .input-group-append > .input-group-text {
-  padding: 0.5rem 0 0.5rem 1rem;
-}
-/* line 535, ../dev/sass/_bootswatch.scss */
-.input-group-lg > .input-group-prepend > .btn {
-  border-top-left-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
-}
-/* line 540, ../dev/sass/_bootswatch.scss */
-.input-group-lg > .input-group-append > .btn {
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
-}
-
-/* line 548, ../dev/sass/_bootswatch.scss */
-.form-group-lg select,
-.form-group-lg select.form-control {
-  line-height: 1.5;
-}
-
-/* line 557, ../dev/sass/_bootswatch.scss */
-.nav-tabs .nav-item + .nav-item {
-  margin-left: 0;
-}
-/* line 561, ../dev/sass/_bootswatch.scss */
-.nav-tabs .nav-link,
-.nav-tabs .nav-link:focus {
-  margin-right: 0;
-  background-color: transparent;
-  border: none;
-  color: #212529;
-  box-shadow: inset 0 -1px 0 #ddd;
-  transition: all 0.2s;
-}
-/* line 570, ../dev/sass/_bootswatch.scss */
-.nav-tabs .nav-link:hover,
-.nav-tabs .nav-link:focus:hover {
-  background-color: transparent;
-  box-shadow: inset 0 -2px 0 #007bff;
-  color: #007bff;
-}
-/* line 577, ../dev/sass/_bootswatch.scss */
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-link.active:focus {
-  border: none;
-  box-shadow: inset 0 -2px 0 #007bff;
-  color: #007bff;
-}
-/* line 583, ../dev/sass/_bootswatch.scss */
-.nav-tabs .nav-link.active:hover,
-.nav-tabs .nav-link.active:focus:hover {
-  border: none;
-  color: #007bff;
-}
-/* line 589, ../dev/sass/_bootswatch.scss */
-.nav-tabs .nav-link.disabled {
-  box-shadow: inset 0 -1px 0 #ddd;
-}
-/* line 595, ../dev/sass/_bootswatch.scss */
-.nav-tabs.nav-justified .nav-link,
-.nav-tabs.nav-justified .nav-link:hover,
-.nav-tabs.nav-justified .nav-link:focus,
-.nav-tabs.nav-justified .nav-link.active,
-.nav-tabs.nav-justified .nav-link.active:hover,
-.nav-tabs.nav-justified .nav-link.active:focus {
-  border: none;
-}
-/* line 605, ../dev/sass/_bootswatch.scss */
-.nav-tabs .dropdown-menu {
-  margin-top: 0;
-}
-
-/* line 610, ../dev/sass/_bootswatch.scss */
-.dropdown-menu {
-  margin-top: 0;
-  border: none;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-}
-
-/* line 618, ../dev/sass/_bootswatch.scss */
-.alert {
-  padding-right: 2.5rem;
-  border: none;
-}
-/* line 622, ../dev/sass/_bootswatch.scss */
-.alert, .alert h1, .alert h2, .alert h3, .alert h4, .alert h5, .alert h6 {
-  color: #fff;
-}
-/* line 627, ../dev/sass/_bootswatch.scss */
-.alert-primary {
-  background-color: #007bff;
-}
-/* line 627, ../dev/sass/_bootswatch.scss */
-.alert-secondary {
-  background-color: #6c757d;
-}
-/* line 627, ../dev/sass/_bootswatch.scss */
-.alert-success {
-  background-color: #28a745;
-}
-/* line 627, ../dev/sass/_bootswatch.scss */
-.alert-info {
-  background-color: #17a2b8;
-}
-/* line 627, ../dev/sass/_bootswatch.scss */
-.alert-warning {
-  background-color: #ffc107;
-}
-/* line 627, ../dev/sass/_bootswatch.scss */
-.alert-danger {
-  background-color: #dc3545;
-}
-/* line 627, ../dev/sass/_bootswatch.scss */
-.alert-light {
-  background-color: #f8f9fa;
-}
-/* line 627, ../dev/sass/_bootswatch.scss */
-.alert-dark {
-  background-color: #343a40;
-}
-/* line 636, ../dev/sass/_bootswatch.scss */
-.alert a:not(.btn),
-.alert .alert-link {
-  color: #fff;
-  font-weight: bold;
-}
-/* line 642, ../dev/sass/_bootswatch.scss */
-.alert .close {
-  color: #fff;
-}
-/* line 648, ../dev/sass/_bootswatch.scss */
-.alert-secondary, .alert-secondary a:not(.btn), .alert-secondary .alert-link, .alert-light, .alert-light a:not(.btn), .alert-light .alert-link {
-  color: #212529;
-}
-
-/* line 658, ../dev/sass/_bootswatch.scss */
-.badge-secondary {
-  background-color: #adb5bd;
-  color: #fff;
-}
-/* line 663, ../dev/sass/_bootswatch.scss */
-.badge-light {
-  background-color: #e9ecef;
-}
-/* line 667, ../dev/sass/_bootswatch.scss */
-.badge-warning {
-  color: #fff;
-}
-
-/* line 672, ../dev/sass/_bootswatch.scss */
-.tag {
-  padding: 4px 6px 4px;
-}
-
-/* line 680, ../dev/sass/_bootswatch.scss */
-.close {
-  line-height: 0.5;
-  opacity: 0.6;
-  transition: all 0.2s;
-}
-/* line 685, ../dev/sass/_bootswatch.scss */
-.close:hover {
-  opacity: 1;
-}
-
-/* line 690, ../dev/sass/_bootswatch.scss */
-.card {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-}
-/* line 693, ../dev/sass/_bootswatch.scss */
-.card.border-primary, .card.border-secondary, .card.border-success, .card.border-info, .card.border-warning, .card.border-danger, .card.border-light, .card.border-dark {
-  border-width: 1px;
-}
-
-/* line 706, ../dev/sass/_bootswatch.scss */
-.alert-dismissible .close {
-  padding: 0.5rem 0.75rem;
-}
-
-/* line 713, ../dev/sass/_bootswatch.scss */
-.list-group-item-action.active h1, .list-group-item-action.active h2, .list-group-item-action.active h3, .list-group-item-action.active h4, .list-group-item-action.active h5, .list-group-item-action.active h6 {
-  color: #fff;
-}
-
-/* line 719, ../dev/sass/_bootswatch.scss */
-.modal-content {
-  border-radius: 0.2rem;
-  box-shadow: 0 6px 36px rgba(0, 0, 0, 0.3);
-}
-
-/* line 724, ../dev/sass/_bootswatch.scss */
-.popover {
-  border: none;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-}
-
-/* line 731, ../dev/sass/_bootswatch.scss */
-.carousel-caption h1, .carousel-caption h2, .carousel-caption h3, .carousel-caption h4, .carousel-caption h5, .carousel-caption h6 {
-  color: inherit;
-}
-
-/* line 1, ../dev/sass/_home.scss */
-body {
-  background: #212529;
-  color: #fff;
->>>>>>> 8db25e1aa328b08f7dd97c483cdec398710349ad
+@-moz-keyframes shake {
+  0% {
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  10% {
+    -moz-transform: translate(0px, 0px) rotate(-1deg);
+    transform: translate(0px, 0px) rotate(-1deg);
+  }
+  20% {
+    -moz-transform: translate(0px, 0px) rotate(1deg);
+    transform: translate(0px, 0px) rotate(1deg);
+  }
+  30% {
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  40% {
+    -moz-transform: translate(0px, 0px) rotate(1deg);
+    transform: translate(0px, 0px) rotate(1deg);
+  }
+  50% {
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  60% {
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  100% {
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  10% {
+    -webkit-transform: translate(0px, 0px) rotate(-1deg);
+    transform: translate(0px, 0px) rotate(-1deg);
+  }
+  20% {
+    -webkit-transform: translate(0px, 0px) rotate(1deg);
+    transform: translate(0px, 0px) rotate(1deg);
+  }
+  30% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  40% {
+    -webkit-transform: translate(0px, 0px) rotate(1deg);
+    transform: translate(0px, 0px) rotate(1deg);
+  }
+  50% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  60% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+@keyframes shake {
+  0% {
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    -ms-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  10% {
+    -moz-transform: translate(0px, 0px) rotate(-1deg);
+    -ms-transform: translate(0px, 0px) rotate(-1deg);
+    -webkit-transform: translate(0px, 0px) rotate(-1deg);
+    transform: translate(0px, 0px) rotate(-1deg);
+  }
+  20% {
+    -moz-transform: translate(0px, 0px) rotate(1deg);
+    -ms-transform: translate(0px, 0px) rotate(1deg);
+    -webkit-transform: translate(0px, 0px) rotate(1deg);
+    transform: translate(0px, 0px) rotate(1deg);
+  }
+  30% {
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    -ms-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  40% {
+    -moz-transform: translate(0px, 0px) rotate(1deg);
+    -ms-transform: translate(0px, 0px) rotate(1deg);
+    -webkit-transform: translate(0px, 0px) rotate(1deg);
+    transform: translate(0px, 0px) rotate(1deg);
+  }
+  50% {
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    -ms-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  60% {
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    -ms-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  100% {
+    -moz-transform: translate(0px, 0px) rotate(0deg);
+    -ms-transform: translate(0px, 0px) rotate(0deg);
+    -webkit-transform: translate(0px, 0px) rotate(0deg);
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+/* line 44, ../dev/sass/_home.scss */
+.item:hover {
+  -moz-animation: shake 0.8s infinite linear;
+  -webkit-animation: shake 0.8s infinite linear;
+  animation: shake 0.8s infinite linear;
+  -moz-transform-origin: 50% 50% 50%;
+  -ms-transform-origin: 50% 50% 50%;
+  -webkit-transform-origin: 50% 50% 50%;
+  transform-origin: 50% 50% 50%;
 }

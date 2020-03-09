@@ -1,0 +1,27 @@
+{
+  "name": "tft-live-periscope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "jquery": "^3.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deein/tft-mobile-live.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deein/tft-mobile-live/issues"
+  },
+  "homepage": "https://github.com/deein/tft-mobile-live#readme"
+}

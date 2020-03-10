@@ -7,7 +7,7 @@ body{
   color: $body-color;
 }
 
-#background-video{
+#egg-01, #egg-02, #egg-03{
 	position: fixed;
 	top:0;
 	left: 0;
@@ -16,32 +16,44 @@ body{
 }
 
 .container-fullhd{
+	position:fixed;
+	z-index:1;
 	width: 1920px;
 	height: 1080px;
 	overflow:hidden;
 	@include display-flex;
   @include flex-direction(row);
 	@include align-items(center);
-	@include justify-content(center);
-	// .egg{
-	// 	width: 1920px;
-	// 	height: 1080px;
-  //   @include animation(shake 1s infinite linear);
-  //   @include transform-origin(50% 100%);
-	// }
+	@include justify-content(start);
 }
 
-@include keyframes(shake) {
-    0% { @include transform(translate(0px, 0px) rotate(0deg)); }
-    10% { @include transform(translate(0px, 0px) rotate(-1deg)); }
-    20% { @include transform(translate(0px, 0px) rotate(1deg)); }
-    30% { @include transform(translate(0px, 0px) rotate(0deg)); }
-    40% { @include transform(translate(0px, 0px) rotate(1deg)); }
-    50% { @include transform(translate(0px, 0px) rotate(0deg)); }
-    60% { @include transform(translate(0px, 0px) rotate(0deg)); }
-    100% { @include transform(translate(0px, 0px) rotate(0deg)); }
-}
-.item:hover{
-    @include animation(shake 0.8s infinite linear);
-    @include transform-origin(50% 50%);
+.content-timer{
+	position: fixed;
+	z-index:2;
+	top:20px;
+	right:20px;
+	width:400px;
+	height:200px;
+	.text-message{
+		@include display-flex;
+		@include flex-direction(row);
+		@include align-items(center);
+		@include justify-content(center);
+		height: 40%;
+		font-size:30px;
+		color: white;
+		text-transform: uppercase;
+		border: 1px solid white;
+	}
+	.text-timer{
+		@include display-flex;
+		@include flex-direction(row);
+		@include align-items(center);
+		@include justify-content(center);
+		height: 60%;
+		font-size:80px;
+		color: gold;
+		border: 1px solid white;
+		background:white;
+	}
 }

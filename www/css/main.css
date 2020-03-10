@@ -11900,7 +11900,7 @@ body {
 }
 
 /* line 10, ../dev/sass/_home.scss */
-#background-video {
+#egg-01, #egg-02, #egg-03 {
   position: fixed;
   top: 0;
   left: 0;
@@ -11910,6 +11910,8 @@ body {
 
 /* line 18, ../dev/sass/_home.scss */
 .container-fullhd {
+  position: fixed;
+  z-index: 1;
   width: 1920px;
   height: 1080px;
   overflow: hidden;
@@ -11919,135 +11921,48 @@ body {
   flex-direction: row;
   -webkit-align-items: center;
   align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-justify-content: start;
+  justify-content: start;
 }
 
-@-moz-keyframes shake {
-  0% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  10% {
-    -moz-transform: translate(0px, 0px) rotate(-1deg);
-    transform: translate(0px, 0px) rotate(-1deg);
-  }
-  20% {
-    -moz-transform: translate(0px, 0px) rotate(1deg);
-    transform: translate(0px, 0px) rotate(1deg);
-  }
-  30% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  40% {
-    -moz-transform: translate(0px, 0px) rotate(1deg);
-    transform: translate(0px, 0px) rotate(1deg);
-  }
-  50% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  60% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  100% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
+/* line 30, ../dev/sass/_home.scss */
+.content-timer {
+  position: fixed;
+  z-index: 2;
+  top: 20px;
+  right: 20px;
+  width: 400px;
+  height: 200px;
 }
-@-webkit-keyframes shake {
-  0% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  10% {
-    -webkit-transform: translate(0px, 0px) rotate(-1deg);
-    transform: translate(0px, 0px) rotate(-1deg);
-  }
-  20% {
-    -webkit-transform: translate(0px, 0px) rotate(1deg);
-    transform: translate(0px, 0px) rotate(1deg);
-  }
-  30% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  40% {
-    -webkit-transform: translate(0px, 0px) rotate(1deg);
-    transform: translate(0px, 0px) rotate(1deg);
-  }
-  50% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  60% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  100% {
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
+/* line 37, ../dev/sass/_home.scss */
+.content-timer .text-message {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 40%;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid white;
 }
-@keyframes shake {
-  0% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
-    -ms-transform: translate(0px, 0px) rotate(0deg);
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  10% {
-    -moz-transform: translate(0px, 0px) rotate(-1deg);
-    -ms-transform: translate(0px, 0px) rotate(-1deg);
-    -webkit-transform: translate(0px, 0px) rotate(-1deg);
-    transform: translate(0px, 0px) rotate(-1deg);
-  }
-  20% {
-    -moz-transform: translate(0px, 0px) rotate(1deg);
-    -ms-transform: translate(0px, 0px) rotate(1deg);
-    -webkit-transform: translate(0px, 0px) rotate(1deg);
-    transform: translate(0px, 0px) rotate(1deg);
-  }
-  30% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
-    -ms-transform: translate(0px, 0px) rotate(0deg);
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  40% {
-    -moz-transform: translate(0px, 0px) rotate(1deg);
-    -ms-transform: translate(0px, 0px) rotate(1deg);
-    -webkit-transform: translate(0px, 0px) rotate(1deg);
-    transform: translate(0px, 0px) rotate(1deg);
-  }
-  50% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
-    -ms-transform: translate(0px, 0px) rotate(0deg);
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  60% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
-    -ms-transform: translate(0px, 0px) rotate(0deg);
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-  100% {
-    -moz-transform: translate(0px, 0px) rotate(0deg);
-    -ms-transform: translate(0px, 0px) rotate(0deg);
-    -webkit-transform: translate(0px, 0px) rotate(0deg);
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-}
-/* line 44, ../dev/sass/_home.scss */
-.item:hover {
-  -moz-animation: shake 0.8s infinite linear;
-  -webkit-animation: shake 0.8s infinite linear;
-  animation: shake 0.8s infinite linear;
-  -moz-transform-origin: 50% 50% 50%;
-  -ms-transform-origin: 50% 50% 50%;
-  -webkit-transform-origin: 50% 50% 50%;
-  transform-origin: 50% 50% 50%;
+/* line 48, ../dev/sass/_home.scss */
+.content-timer .text-timer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 60%;
+  font-size: 80px;
+  color: gold;
+  border: 1px solid white;
+  background: white;
 }

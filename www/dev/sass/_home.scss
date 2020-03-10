@@ -15,7 +15,7 @@ body{
 	height:1080px;
 }
 
-.container-fullhd{
+.container-fullhd, .container-tweets, .container-timer{
 	position:fixed;
 	z-index:1;
 	width: 1920px;
@@ -24,36 +24,66 @@ body{
 	@include display-flex;
   @include flex-direction(row);
 	@include align-items(center);
-	@include justify-content(start);
+	@include justify-content(center);
+}
+
+.container-tweets{
+	z-index:2;
+	.content-tweets{
+		width:80%;
+		height: auto;
+		background:white;
+		padding:60px;
+		.pseudo-tweets{
+			font-size:60px;
+			text-transform: uppercase;
+			color: $gold;
+			margin-bottom:40px;
+		}
+		.message-tweets{
+			font-size:50px;
+			line-height: 60px;
+		}
+	}
+}
+
+.container-timer{
+	z-index:3;
+	@include align-items(flex-end);
+	@include justify-content(center);
 }
 
 .content-timer{
-	position: fixed;
-	z-index:2;
-	top:20px;
-	right:20px;
-	width:400px;
-	height:200px;
+	height:100px;
+	margin-bottom:10px;
+	@include display-flex;
+	@include flex-direction(row);
+	@include align-items(center);
+	@include justify-content(center);
 	.text-message{
 		@include display-flex;
 		@include flex-direction(row);
 		@include align-items(center);
 		@include justify-content(center);
-		height: 40%;
-		font-size:30px;
+		width:auto;
+		height: 100%;
+		font-size:40px;
 		color: white;
 		text-transform: uppercase;
-		border: 1px solid white;
+		border: 2px solid white;
+		padding:30px 60px;
 	}
 	.text-timer{
 		@include display-flex;
 		@include flex-direction(row);
 		@include align-items(center);
 		@include justify-content(center);
-		height: 60%;
+		width:auto;
+		height: 100%;
 		font-size:80px;
-		color: gold;
+		color: $gold;
 		border: 1px solid white;
 		background:white;
+		padding:30px 60px;
 	}
 }

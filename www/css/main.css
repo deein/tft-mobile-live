@@ -11909,7 +11909,7 @@ body {
 }
 
 /* line 18, ../dev/sass/_home.scss */
-.container-fullhd {
+.container-fullhd, .container-tweets, .container-timer {
   position: fixed;
   z-index: 1;
   width: 1920px;
@@ -11921,20 +11921,57 @@ body {
   flex-direction: row;
   -webkit-align-items: center;
   align-items: center;
-  -webkit-justify-content: start;
-  justify-content: start;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 
 /* line 30, ../dev/sass/_home.scss */
-.content-timer {
-  position: fixed;
+.container-tweets {
   z-index: 2;
-  top: 20px;
-  right: 20px;
-  width: 400px;
-  height: 200px;
+}
+/* line 32, ../dev/sass/_home.scss */
+.container-tweets .content-tweets {
+  width: 80%;
+  height: auto;
+  background: white;
+  padding: 60px;
 }
 /* line 37, ../dev/sass/_home.scss */
+.container-tweets .content-tweets .pseudo-tweets {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #cca55f;
+  margin-bottom: 40px;
+}
+/* line 43, ../dev/sass/_home.scss */
+.container-tweets .content-tweets .message-tweets {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+/* line 50, ../dev/sass/_home.scss */
+.container-timer {
+  z-index: 3;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* line 56, ../dev/sass/_home.scss */
+.content-timer {
+  height: 100px;
+  margin-bottom: 10px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+/* line 63, ../dev/sass/_home.scss */
 .content-timer .text-message {
   display: -webkit-flex;
   display: flex;
@@ -11944,13 +11981,15 @@ body {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  height: 40%;
-  font-size: 30px;
+  width: auto;
+  height: 100%;
+  font-size: 40px;
   color: white;
   text-transform: uppercase;
-  border: 1px solid white;
+  border: 2px solid white;
+  padding: 30px 60px;
 }
-/* line 48, ../dev/sass/_home.scss */
+/* line 76, ../dev/sass/_home.scss */
 .content-timer .text-timer {
   display: -webkit-flex;
   display: flex;
@@ -11960,9 +11999,11 @@ body {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  height: 60%;
+  width: auto;
+  height: 100%;
   font-size: 80px;
-  color: gold;
+  color: #cca55f;
   border: 1px solid white;
   background: white;
+  padding: 30px 60px;
 }
